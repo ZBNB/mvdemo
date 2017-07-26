@@ -8,7 +8,6 @@ import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import cn.ac.sec.model.system.User;
 import cn.ac.sec.util.Const;
 import cn.ac.sec.util.Jurisdiction;
 

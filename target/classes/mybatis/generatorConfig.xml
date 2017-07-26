@@ -160,7 +160,9 @@
 		<table schema="" tableName="sys_%" domainObjectName="system."
 			mapperName="system.{0}Mapping" enableCountByExample="false"
 			enableUpdateByExample="false" enableDeleteByExample="false"
-			enableSelectByExample="false" selectByExampleQueryId="false" />
+			enableSelectByExample="false" selectByExampleQueryId="false">
+			<!-- <columnRenamingRule searchString="sys_" replaceString=""/> -->
+		</table>
 	</context>
 
 </generatorConfiguration>
